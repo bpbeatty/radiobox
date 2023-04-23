@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.0 (2023-04-23)
+
+
+### Features
+
+* init commit of radiobox ([71e3874](https://github.com/bpbeatty/radiobox/commit/71e38747ba7516444fb03778b249925447e03893))
+* update cosign ([d5e06f8](https://github.com/bpbeatty/radiobox/commit/d5e06f8d4d094ce0b5115cbbf686572f883435ae))
+
+
+### Bug Fixes
+
+* update cosign installer 3.0.2 ([76f67d7](https://github.com/bpbeatty/radiobox/commit/76f67d78ffb4e4829356609a60270c6f33aacfc1))
+
 ## 1.0.0 (2023-02-04)
 
 
