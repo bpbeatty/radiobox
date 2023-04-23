@@ -1,8 +1,9 @@
 gcc
 less
 libcanberra-gtk-module
+libcanberra-gtk3-module
 libpulse-dev
 pulseaudio
 tmux
-wsjtx
 vim
+wsjtx
