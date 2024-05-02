@@ -1,4 +1,4 @@
-# boxkit
+# radiobox
 
 A base image and action for Toolbx and Distrobox.
 Sure, you can use the distro you're used to, but what if ... 
@@ -33,13 +33,13 @@ We're starting small but have big aspirations.
 
 If you use distrobox:
 
-    distrobox create -i ghcr.io/bpbeatty/boxkit -n boxkit
-    distrobox enter boxkit
+    distrobox create -i ghcr.io/bpbeatty/radiobox -n radiobox
+    distrobox enter radiobox
     
 If you use toolbx:
 
-    toolbox create -i ghcr.io/bpbeatty/boxkit -c boxkit
-    toolbox enter boxkit
+    toolbox create -i ghcr.io/bpbeatty/radiobox -c radiobox
+    toolbox enter radiobox
 
 ### Pull down your config
 
@@ -76,7 +76,7 @@ Also apk is fast. Watch the video for more!
 
 These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
-    cosign verify --key cosign.pub ghcr.io/bpbeatty/boxkit
+    cosign verify --key cosign.pub ghcr.io/bpbeatty/radiobox
     
 If you're forking this repo you should [read the docs](https://docs.github.com/en/actions/security-guides/encrypted-secrets) on keeping secrets in github. You need to [generate a new keypair](https://docs.sigstore.dev/cosign/overview/) with cosign. The public key can be in your public repo (your users need it to check the signatures), and you can paste the private key in Settings -> Secrets -> Actions.
 
@@ -96,4 +96,4 @@ These are a set of mostly-stock images with packages needed to run as a toolbox/
 
 Try to derive your blingbox from those base images so we can all help maintain them over time, you can't have bling without good stock!
 
-Tag your image with `boxkit` to share with others!
+Tag your image with `radiobox` to share with others!
