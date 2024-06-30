@@ -10,6 +10,8 @@ LABEL com.github.containers.toolbox="true" \
 
 COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 
+RUN curl https://debian.gridtracker.org/gridtracker_deb_install.sh | bash
+
 COPY extra-packages /
 RUN apt update -y && \
     apt upgrade -y && \
